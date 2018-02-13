@@ -7,9 +7,8 @@ function alertTeamName() {
 }
 
 function createButtons() {
-
+    $("#choice-input").text("")
     $("#team-buttons").empty();
-
     // Looping through the array of teams
 
     for (var i = 0; i < teams.length; i++) {
@@ -33,10 +32,9 @@ $("#addTeam").on("click", function (event) {
     // This line grabs the input from the textbox
     var team = $("#choice-input").val().trim();
 
-    // Adding the movie from the textbox to our array
+    // Adding the team from the textbox to our array
     teams.push(team);
-    $("#choice-input").val()
-    // Calling renderButtons which handles the processing of our movie array
+    $("#choice-input").val("");
     createButtons();
 
 });

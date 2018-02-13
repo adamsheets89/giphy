@@ -5,11 +5,12 @@ input {
   margin: 10px;
 }
 
-body {
-  background-image: url(https://previews.123rf.com/images/kittichais/kittichais1302/kittichais130200020/17806262-basketball-court-floor-plan-on-parquet-background.jpg);
-}
 
 h1 {
   text-align: center;
 
+}
+
+body {
+  text-align: center;
 }
